@@ -5,7 +5,7 @@ export default function Hero() {
     <section className="max-w-7xl mx-auto px-5 pt-8">
       <div className="rounded-[2rem] overflow-hidden bg-gradient-to-r from-blue-950 via-blue-900 to-slate-900 text-white shadow-2xl grid lg:grid-cols-2 items-center min-h-[430px]">
         <div className="p-8 md:p-14">
-          <p className="uppercase font-black text-red-400 tracking-widest">Nueva colección 2026</p>
+          <p className="uppercase font-black text-red-400 tracking-widest">Nueva temporada 2026</p>
           <h1 className="text-5xl md:text-6xl font-black leading-tight mt-4">Ropa y calzado deportivo para toda la familia</h1>
           <p className="text-blue-100 text-lg mt-5 max-w-xl">Super Sport Puerto Maldonado: calidad, garantía y economía en zapatillas, polos, sandalias, shorts, jeans, casacas y accesorios.</p>
           <div className="flex flex-wrap gap-4 mt-8">
