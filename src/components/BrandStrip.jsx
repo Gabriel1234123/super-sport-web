@@ -1,0 +1,2 @@
+import { marcas } from '../data/localProducts';
+export default function BrandStrip(){return <section className="max-w-7xl mx-auto px-5 py-8"><h2 className="text-center text-3xl font-black text-blue-950 mb-6">MARCAS QUE TRABAJAMOS</h2><div className="bg-white rounded-2xl shadow p-6 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-4 text-center">{marcas.map(m=><span key={m} className="font-black text-slate-700 text-lg">{m}</span>)}</div></section>}
