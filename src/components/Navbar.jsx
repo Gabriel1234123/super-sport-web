@@ -5,6 +5,7 @@ import { formatearSoles } from '../utils/helpers';
 export default function Navbar() {
   const { totalItems, total } = useCart();
   
+  // Mejora: Se añade una transición suave y un sutil borde inferior dinámico para el enlace activo
   const navClass = ({ isActive }) => 
     `font-bold transition-colors duration-200 hover:text-red-600 pb-1 border-b-2 ${
       isActive ? 'text-red-600 border-red-600' : 'text-slate-800 border-transparent hover:border-red-600/30'
